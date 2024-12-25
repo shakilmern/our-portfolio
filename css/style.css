@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
 body{
     background-color: white;
     padding: 0;
     margin: 0;
 }
-
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    padding: 0;
+    margin: 0;
+}
 section{
     background-color: white;
     display: flex;
@@ -19,9 +29,84 @@ section{
     width: 45%;
 }
 img{
-    width: 50%;
+    width: 100%;
 }
 
 .experience-area{
     display: flex;
 }
+
+
+/* Navbar section Start */
+.container{
+    width: 1280px;
+    margin: 20px auto;
+}
+#navbar{
+    background-color: #fff;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.navbar_left_side{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.logo_icon_container{
+    width: 56px;
+    height: 56px;
+    border-radius: 100%;
+    background: rgb(165, 61, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.logo_icon_container span {
+    font-family: "Poppins", serif;
+    color: #fff;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 56px;
+    letter-spacing: 0%;
+}
+.logo_name{
+    color: rgb(19, 34, 56);
+    font-family: "Work Sans", serif;
+    font-size: 32px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0%;
+}
+.navbar_right_side{
+    display: flex;
+    align-items: center;
+    
+}
+.navbar_link{
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color:rgb(255, 255, 255);
+}
+.navbar_link span{
+    color: rgb(51, 51, 51); 
+    font-family: "Work Sans", serif;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+.navbar_link_btn{
+    padding: 12px 24px;
+    border-radius: 4px;
+    background-color: rgb(165, 61, 255);
+}
+.navbar_link_btn_span{
+    color: rgb(165, 61, 255);
+    font-family: "Work Sans", serif;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+}
+/* Navbar section End */
